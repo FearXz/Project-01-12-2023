@@ -10,6 +10,12 @@
 .avatar-profile {
   max-width: 150px;
 }
+.avatar-profile {
+  width: 30px;
+}
+.super-light-gray {
+  color: #dcdcdc;
+}
 .bg-custom1 {
   background: rgb(20, 20, 20);
   background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.671) 10%, rgba(0, 0, 0, 0) 100%);
