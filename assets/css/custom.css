@@ -1,0 +1,17 @@
+.logo {
+  width: 100px;
+}
+.avatar {
+  width: 60px;
+}
+
+@media screen and (min-width: 0px) {
+  #rightbar {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  #rightbar {
+    opacity: 1;
+  }
+}
