@@ -27,16 +27,6 @@
   letter-spacing: 3px;
 }
 
-@media screen and (min-width: 0px) {
-  #rightbar {
-    opacity: 0;
-  }
-}
-@media screen and (min-width: 992px) {
-  #rightbar {
-    opacity: 1;
-  }
-}
 #check-container {
   padding-inline-start: 35px;
 }
