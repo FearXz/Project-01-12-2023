@@ -23,6 +23,9 @@
 .bg-somegray {
   background-color: #666666;
 }
+.bg-settings {
+  background-color: #f3f3f3;
+}
 #edit {
   letter-spacing: 2px;
 }
