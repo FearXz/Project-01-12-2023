@@ -27,10 +27,11 @@
 .bg-settings {
   background-color: #f3f3f3;
 }
-#edit {
+.spacing-2 {
   letter-spacing: 2px;
 }
-.spacing {
+
+.spacing-3 {
   letter-spacing: 3px;
 }
 
