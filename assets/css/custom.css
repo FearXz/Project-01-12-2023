@@ -83,3 +83,8 @@
 .checkbox-wrapper input:checked ~ .checkmark::after {
   display: block;
 }
+.buttonsettings .btn-group .dropdown-menu[data-bs-popper] {
+  position: absolute !important;
+  top: 130% !important;
+  left: -55% !important;
+}
