@@ -299,6 +299,7 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      /* fixata animazione carosello buggata per overflow-visible*/
       let carousels = document.querySelectorAll(".carousel");
 
       carousels.forEach((carousel) => {
@@ -316,7 +317,7 @@
         });
       });
 
-      /*
+      /* test sul singolo carousel
       let innerCar = document.querySelector("#carouselExample3 .carousel-inner");
       let button = document.querySelector("#carouselExample3 button");
       button.addEventListener("click", () => {
