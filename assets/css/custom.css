@@ -92,3 +92,14 @@
 .carousel-control-next {
   width: 5% !important;
 }
+.carousel-inner img {
+  transition: all 0.2s !important;
+}
+
+.carousel-inner img:hover {
+  z-index: 1 !important;
+  scale: 1.2 !important;
+}
+.carousel-inner:has(img:hover) img:not(:hover) {
+  opacity: 0.1;
+}
